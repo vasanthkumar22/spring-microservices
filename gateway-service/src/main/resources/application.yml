@@ -21,3 +21,10 @@ eureka:
 ribbon:
   eureka:
     enabled: true
+info:
+  compoent: Edge Server
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: DEBUG
