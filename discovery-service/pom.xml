@@ -6,7 +6,7 @@
 		<groupId>org.example</groupId>
 		<artifactId>spring-microservices</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath><!-- lookup parent from repository -->
 	</parent>
 
 	<artifactId>discovery-service</artifactId>
@@ -15,13 +15,12 @@
 	<description>Demo project for Discovery service</description>
 	<properties>
 		<java.version>1.8</java.version>
-		<spring-cloud.version>2020.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
-			<version>${spring.version}</version>
+			<version>${spring.cloud.version}</version>
 		</dependency>
 	</dependencies>
 	<!--<dependencyManagement>
